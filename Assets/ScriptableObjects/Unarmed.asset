@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d4282fcc85b884a95476dd835e1ee8, type: 3}
+  m_Name: Unarmed
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: d8477b5c278deae48a17bdecb965b4b4, type: 3}
+  ItemName: Unarmed
+  modelPrefab: {fileID: 2606426872198336740, guid: 085d81a9c49fbd54b92242c41e46637a, type: 3}
+  isUnarmed: 1
+  right_hand_idle: Right Arm Empty
+  left_hand_idle: Left Arm Empty
+  OH_Right_Light_Attack_1: Unarmed_Right_Light_01
+  oh_right_light_1_duration: 0.85
+  OH_Right_Light_Attack_2: Unarmed_Right_Light_02
+  oh_right_light_2_duration: 2.167
+  OH_Right_Heavy_Attack_1: Unarmed_Right_Heavy_01
+  oh_right_heavy_1_duration: 2
+  OH_Left_Light_Attack_1: Unarmed_Left_Light_01
+  oh_left_light_1_duration: 1.033
+  OH_Left_Light_Attack_2: Unarmed_Left_Light_02
+  oh_left_light_2_duration: 2.167
+  OH_Left_Heavy_Attack_1: Unarmed_Left_Heavy_01
+  oh_left_heavy_1_duration: 2
+  baseStamina: 5
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2
